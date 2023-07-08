@@ -1,0 +1,114 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "name": {
+                "width": 222
+              }
+            }
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#a882ff",
+                "condition": {
+                  "field": "name",
+                  "operator": "is-not-empty",
+                  "enabled": true
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "d67b4a9d-e7aa-4727-a4b6-c8000fb4c56b",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "interval": "day"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "391f9f7b-85cb-44e2-98f1-931160f2a29b",
+          "name": "Calendar",
+          "type": "calendar"
+        }
+      ],
+      "id": "12679a38-8c92-4770-9ee1-f061f2d9d575",
+      "name": "serverless-expertise"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [
+        ""
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "/rust",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "b0f5782d-52a4-4d0a-a960-04cac34977ea",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "91fa6bda-bda6-4c64-9521-f4a0452fdd90",
+      "name": "learn-rust"
+    }
+  ],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    },
+    "commands": []
+  }
+}

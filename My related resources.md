@@ -1,0 +1,1 @@
+[My testing strategy for serverless applications - Yan Cui](https://theburningmonk.com/2022/05/my-testing-strategy-for-serverless-applications/)
